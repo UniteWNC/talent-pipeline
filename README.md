@@ -14,3 +14,11 @@ To import the survey template:
 * Go to the JSON Editor
 
 ![2](docs/2.png)
+
+* Paste in the JSON template
+
+![3](docs/3.png)
+
+* Now you've imported the template and can make changes.  Go back to the **Survey Designer** to make changes.
+
+![4](docs/4.png)
