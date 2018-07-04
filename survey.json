@@ -1,0 +1,577 @@
+{
+ "locale": "en",
+ "title": "Talent Pipeline Survey",
+ "pages": [
+  {
+   "name": "Personal",
+   "elements": [
+    {
+     "type": "text",
+     "name": "question1",
+     "title": "Name"
+    },
+    {
+     "type": "text",
+     "name": "question2",
+     "title": "Age",
+     "inputType": "number"
+    },
+    {
+     "type": "dropdown",
+     "name": "Education",
+     "title": "Education",
+     "choices": [
+      {
+       "value": "Graduate Degree",
+       "undefined": "Graduate Degree"
+      },
+      {
+       "value": "4 Year Degree",
+       "undefined": "4 Year Degree"
+      },
+      {
+       "value": "2 Year Degree",
+       "undefined": "2 Year Degree"
+      },
+      {
+       "value": "Some College",
+       "undefined": "Some College"
+      },
+      {
+       "value": "High School",
+       "undefined": "High School"
+      },
+      "Do not wish to disclose"
+     ]
+    },
+    {
+     "type": "dropdown",
+     "name": "question3",
+     "title": "Gender",
+     "choices": [
+      {
+       "value": "Male",
+       "undefined": "Male"
+      },
+      {
+       "value": "Female",
+       "undefined": "Female"
+      },
+      {
+       "value": "Other",
+       "undefined": "Other"
+      },
+      "Do not wish to disclose"
+     ]
+    }
+   ],
+   "title": "Personal"
+  },
+  {
+   "name": "Employment",
+   "elements": [
+    {
+     "type": "dropdown",
+     "name": "question5",
+     "title": "Employment Status",
+     "choices": [
+      {
+       "value": "Full-Time",
+       "undefined": "Full-Time"
+      },
+      {
+       "value": "Part-Time",
+       "undefined": "Part-Time"
+      },
+      {
+       "value": "Gig",
+       "undefined": "Gig"
+      },
+      {
+       "value": "Other",
+       "undefined": "Other"
+      },
+      "Do not wish to disclose"
+     ]
+    },
+    {
+     "type": "checkbox",
+     "name": "question6",
+     "title": "Looking For Opportunities",
+     "choices": [
+      {
+       "value": "item1",
+       "text": "Full-Time"
+      },
+      {
+       "value": "item2",
+       "text": "Part-Time"
+      },
+      {
+       "value": "item3",
+       "text": "Gig"
+      }
+     ]
+    }
+   ],
+   "title": "Employment"
+  },
+  {
+   "name": "Skills",
+   "elements": [
+    {
+     "type": "matrixdynamic",
+     "name": "Programming Languages",
+     "title": "Programming Languages",
+     "columns": [
+      {
+       "name": "Language",
+       "title": "Language",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question7",
+     "title": "Operating Systems",
+     "columns": [
+      {
+       "name": "OS",
+       "title": "OS",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question9",
+     "title": "Databases",
+     "columns": [
+      {
+       "name": "DB",
+       "title": "DB",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question10",
+     "title": "Cloud Platforms",
+     "columns": [
+      {
+       "name": "Platform",
+       "title": "Platform",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question11",
+     "title": "Virtualization Platforms",
+     "columns": [
+      {
+       "name": "Platform",
+       "title": "Platform",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question12",
+     "title": "Storage Technologies",
+     "columns": [
+      {
+       "name": "Technology",
+       "title": "Technology",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question13",
+     "title": "Mobile Technologies",
+     "columns": [
+      {
+       "name": "Technology",
+       "title": "Technology",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question14",
+     "title": "Networking Technologies",
+     "columns": [
+      {
+       "name": "Technology",
+       "title": "Technology",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question15",
+     "title": "Processes",
+     "columns": [
+      {
+       "name": "Process",
+       "title": "Process",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question16",
+     "title": "Collaboration Tools",
+     "columns": [
+      {
+       "name": "Tool",
+       "title": "Tool",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question17",
+     "title": "Multimedia Tools",
+     "columns": [
+      {
+       "name": "Tool",
+       "title": "Tool",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question18",
+     "title": "Big Data Platforms",
+     "columns": [
+      {
+       "name": "Platform",
+       "title": "Platform",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question19",
+     "title": "Security ",
+     "columns": [
+      {
+       "name": "Platform",
+       "title": "Platform",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question20",
+     "title": "Development Environments",
+     "columns": [
+      {
+       "name": "Environment",
+       "title": "Environment",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question21",
+     "title": "Hardware Platforms",
+     "columns": [
+      {
+       "name": "Platform",
+       "title": "Platform",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    },
+    {
+     "type": "matrixdynamic",
+     "name": "question22",
+     "title": "Soft Skills",
+     "columns": [
+      {
+       "name": "Skill",
+       "title": "Skill",
+       "cellType": "text",
+       "isRequired": true
+      },
+      {
+       "name": "Skill Level",
+       "cellType": "dropdown",
+       "isRequired": true
+      }
+     ],
+     "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "rowCount": 0
+    }
+   ],
+   "title": "Skills"
+  },
+  {
+   "name": "Certifications",
+   "elements": [
+    {
+     "type": "matrixdynamic",
+     "name": "Certifications",
+     "title": "Certifications",
+     "columns": [
+      {
+       "name": "Certification",
+       "title": "Certfication",
+       "cellType": "text"
+      }
+     ],
+     "choices": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    }
+   ],
+   "title": "Certifications"
+  }
+ ],
+ "showProgressBar": "bottom",
+ "pagePrevText": {
+  "en": "Previous"
+ },
+ "pageNextText": {
+  "en": "Next"
+ },
+ "completeText": {
+  "en": "Complete"
+ }
+}
