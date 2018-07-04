@@ -9,4 +9,8 @@ To import the survey template:
 * Go to https://surveyjs.io
 * Log in and Go to **Builder**
 
-![Alt Text](docs/1.png)
+![1](docs/1.png)
+
+* Go to the JSON Editor
+
+![2](docs/2.png)
